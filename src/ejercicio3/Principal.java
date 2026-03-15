@@ -1,12 +1,14 @@
-package ejercicio2;
+package ejercicio3;
+
+import java.util.ArrayList;
+import java.util.Arrays;
 
 /*
-* Instancia un ArrayList de objetos Integer (ya que no puede almacenar tipos primitivos)
-* Haz que el ArrayList se rellene con 5 números que meta el usuario por teclado, ni más, ni menos
-* Y calcula la suma del total de los números
+* Con el ArrayList ya instanciado e inicializado con esos 5 números
+* Haz un método que calcule el número mayor y el número menor devolviendo una lista de 2 números
 * */
 public class Principal {
-
+    static ArrayList<Integer> numerosList = new ArrayList<Integer>(Arrays.asList(1,5,8,9,3));
     public static void main(String[] args) {
 
     }
