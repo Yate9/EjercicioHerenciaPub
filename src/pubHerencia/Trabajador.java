@@ -1,5 +1,5 @@
 package pubHerencia;
-
+//
 public abstract class Trabajador {
     private String nombre;
     private String fechaDeNacimiento;
@@ -32,5 +32,4 @@ public abstract class Trabajador {
     public String toString() {
         return "Trabajador{" + "nombre='" + nombre + '\'' + ", fechaDeNacimiento='" + fechaDeNacimiento + '\'' + ", salarioBase=" + salarioBase + '}';
     }
-
 }

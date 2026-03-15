@@ -1,5 +1,5 @@
 package pubHerencia;
-
+//
 public class Camarero extends Trabajador{
     private double propinasAcumuladas = 0;
 

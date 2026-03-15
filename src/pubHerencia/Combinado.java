@@ -1,5 +1,5 @@
 package pubHerencia;
-
+//
 public class Combinado extends Bebida{
     private Bebida alcohol;
     private Bebida mezclador;
