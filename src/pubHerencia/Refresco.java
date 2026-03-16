@@ -10,6 +10,9 @@ public class Refresco extends Bebida{
     public Refresco() {
         super();
     }
+    /*public Refresco(String nombre, String marca, double precioBase){
+        super();
+    }*/
 
     public Double getNivelCafeina() {
         return nivelCafeina;

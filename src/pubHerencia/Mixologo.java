@@ -21,7 +21,7 @@ public class Mixologo extends Camarero{
     public Mixologo() {
         super();
     }
-    public Mixologo(String nombre, String fechaDeNacimiento, Double salarioBase, ArrayList<Coctel> cartaEspecialidades) {
+    public Mixologo(String nombre, String fechaDeNacimiento, Double salarioBase, double propinasAcumuladas, ArrayList<Coctel> cartaEspecialidades) {
         super();
         this.cartaEspecialidades = cartaEspecialidades;
     }

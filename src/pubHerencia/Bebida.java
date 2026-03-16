@@ -7,7 +7,7 @@ public class Bebida {
     private String marca;
     private double precioBase;
     private Double calorias;
-    Sabor sabor;
+    private     Sabor sabor;
     private enum Sabor{
         DULCE, CITRICO, AMARGO, NEUTRO;
     }

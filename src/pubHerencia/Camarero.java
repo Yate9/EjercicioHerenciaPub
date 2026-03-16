@@ -1,7 +1,7 @@
 package pubHerencia;
 //
 public class Camarero extends Trabajador{
-    private double propinasAcumuladas = 0;
+    private double propinasAcumuladas = 0.0;
 
     public Camarero(String nombre, String fechaDeNacimiento, double salarioBase, double propinasAcumuladas) {
         super();

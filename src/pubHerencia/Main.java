@@ -8,6 +8,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         Refresco cola= new Refresco("cola" , "Coca-Cola" , 2.5 , 100.0 , 0.5);
+        //Refresco fanta= new Refresco("Fanta", "Fanta", 2.0);
         Bebida ginebra= new Bebida("ginebra" , "Ginebra" , 5.0 , 100.0);
         Bebida tonica=new Bebida("tonica" , "Tonica" , 2.0 , 100.0);
         Bebida ron=new Bebida("Ron" , "Ron" , 4.0 , 100.0);
@@ -28,7 +29,7 @@ public class Main {
 
 
         Boolean bandera= true;
-        do{
+        while (bandera){
             System.out.println("Elige una opcion:");
             System.out.println("1) Pedir un Refresco de Cola a Paco \n" +
                     "2)Pedir un Combinado (Ginebra + Tónica) a Paco \n" +
@@ -66,8 +67,7 @@ public class Main {
                     System.out.println("Opcion no valida");
                     break;
             }
-
-        }while(bandera);
+        }
 
 
     }

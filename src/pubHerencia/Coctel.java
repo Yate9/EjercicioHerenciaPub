@@ -3,15 +3,16 @@ package pubHerencia;
 import java.util.ArrayList;
 
 public class Coctel extends Bebida{
+    private static double decoracionCoctel = 2.0;
     private ArrayList<Bebida> ingredientes = new ArrayList<>();
 
     @Override
     public double getPrecioVenta(){
         double precioCoctel = 0.0;
-        for (Bebida bebida : ingredientes) {
-            precioCoctel+=bebida.getPrecioVenta();
+        for (Bebida b : ingredientes) {
+            precioCoctel+=b.getPrecioVenta();
         }
-        return precioCoctel+2.0;
+        return precioCoctel+decoracionCoctel;
     }
 
     public Coctel(String nombre, String marca, double precioBase, Double calorias) {
